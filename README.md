@@ -12,7 +12,7 @@ The File "main_for_pem" illustrates this idea by calculating the first three cen
 
 Results are also presented graphically to visualize the points and their weights chosen from the distribution. Zhao's PEM utilizes the inverse Rosenblatt transform, which is calculated in the PEM function.
 
-#Sampling
+# Sampling
 
 Two different sampling methods have been implented in the "samplers" function file. The metropolis-hastings sampler, based on random walks is implemented, and a lating hyper cube sampler has also been implemented. It is easy to notice that LHS provides a more balanced sample (with repsect to the pdf), and metropolis-hastings requires burn-in iterations and doesn't necessarily provide a very balanced sample size, especially for a lower number of samples.
 
